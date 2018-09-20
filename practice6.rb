@@ -101,7 +101,12 @@ matrix_two = [[1, 4, 7],
 matrix_three = [[1, 2, 3, 4],
 							 	[5, 6, 7, 8],
   						  [9, 10, 11, 12],
-							  [13, 14, 15, 16]]
+                [13, 14, 15, 16]]
+                
+matrix_four = [[1, 2, 3, 4, 5],
+               [6, 7, 8, 9, 10],
+               [11, 12, 13, 14, 15]]
+
 puts transpose(matrix_one) == [[1, 3],
  															 [2, 4]]
 puts transpose(matrix_two) == [[1, 2, 3],
@@ -110,7 +115,12 @@ puts transpose(matrix_two) == [[1, 2, 3],
 puts transpose(matrix_three) == [[1, 5, 9, 13],
  																	 [2, 6, 10, 14],
 																	 [3, 7, 11, 15],
-																	 [4, 8, 12, 16]]
+                                   [4, 8, 12, 16]]
+puts transpose(matrix_four) == [[1, 6, 11],
+                                [2, 7, 12],
+                                [3, 8, 13],
+                                [4, 9, 14],
+                                [5, 10, 15]]
 																	 
 																	 
 # Calculater
